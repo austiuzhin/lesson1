@@ -19,3 +19,4 @@ def ask_user(answers):
 		
 if __name__ == "__main__":
 	ask_user(answers)
+	ask_user(answers)
