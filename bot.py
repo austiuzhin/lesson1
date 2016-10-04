@@ -10,7 +10,7 @@ def talk_to_me(bot, update):
 	bot.sendMessage(update.message.chat_id, text = "БЕЗ КОММЕНТАРИЕВ!")
 
 def run_bot():
-	updater = Updater("277701742:AAEaxsArqY95o-c8dFptddfZDpnVPFH-s8s")
+	updater = Updater("262324310:AAHiatPVgu-LRyytVZ6K8hvtzUJVjE0joxk")
 	
 	dp = updater.dispatcher
 	dp.add_handler(CommandHandler("start", start))
