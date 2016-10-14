@@ -18,9 +18,6 @@ def parse(url):
 		 		})
 	 	except IndexError:
 	 		pass
-	 print(data_list)
-	 # metro_station = data[0].find_all("div", {"class": "serp-item__solid serp-item__metro"})[0].text
-	 # print(str(metro_station)	
 
 def send_to_txt(some_list):
 	for item in some_list:
